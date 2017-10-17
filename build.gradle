@@ -1,0 +1,18 @@
+apply plugin: 'groovy'
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'builders.dsl:spreadsheet-builder-poi:1.0.1'
+
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.12'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+
+    testCompile 'com.agorapulse:dru:0.1.0'
+    testCompile 'com.agorapulse:dru-parser-json:0.1.0'
+    testCompile 'builders.dsl:spreadsheet-builder-groovy:1.0.1'
+}
+

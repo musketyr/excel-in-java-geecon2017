@@ -1,0 +1,853 @@
+[
+  {
+    "id": "311",
+    "firstName": "Adam",
+    "lastName": "Bien",
+    "bio": "Consultant and author Adam Bien is an Expert Group member for the Java EE 6 and 7, EJB 3.X, JAX-RS, and JPA 2.X JSRs. He has worked with Java technology since JDK 1.0 and with Servlets/EJB 1.0 and is now an architect and developer for Java SE and Java EE projects. He has edited several books about JavaFX, J2EE, and Java EE, and he is the author of Real World Java EE Patterns – Rethinking Best Practices and Real World Java EE Night Hacks – Dissecting the Business Tier. Adam is also a Java Champion, Top Java Ambassador 2012, and JavaOne 2009, 2011, 2012, 2013 and 2014 Rock Star. He occasionally organizes Java EE workshops at Munich’s airport (<a href= \"http://airhacks.com\"> http://airhacks.com <\u002fa>).",
+    "shortBio": "Java Champion, consultant and author, Expert Group member for the Java EE",
+    "photoUrl": "/speakers/adamb.jpg",
+    "twitter": "AdamBien",
+    "publicationDate": "2017-09-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 320,
+        "description": "<l>Building fullstack web applications from JavaScript, CSS and HTML 5 frontend to Java EE backend. Zero dependencies, fast deployments and current buzzwords compatible.\r\nNo Slides -- Just Code. <\u002fl> <l>#usetheplatform<\u002fl>",
+        "title": "\"Built To Last\" ...and the end of migrations",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "315",
+    "firstName": "Aki",
+    "lastName": "Salmi",
+    "bio": "<l>Aki does not believe in magic. He makes it happen. In all his\r\nprofessions, which are many; Hiking Guide, Work Guide, Communication\r\nTrainer, Software Crafter.<\u002fl>\r\n\r\n<l>Aki started as developer in test and later has worked as Scrum Master\r\nand software crafter. While doing the techy side of his work, Aki is\r\nkeen to TDD the code he is writing - already since 2006.<\u002fl>\r\n\r\n<l>While working with people, Aki is well known for the listening skills\r\nand effective communication skills where everyone is being heard and\r\ntaken into account. Professionally, he travel all around Europe to\r\nspeak, to share and to listen with software craftspeople on what the\r\ncommunity has learned. Aki is well known in Software Crafters\r\nCommunities all over Europe for his down-to-earth and human touch. <\u002fl>\r\n\r\n<l>Meet a man who is living his dream.<\u002fl>",
+    "shortBio": "Software Craftsman, Hiking Guide, Communication Trainer",
+    "photoUrl": "/speakers/akis.jpg",
+    "twitter": "rinkkasatiainen",
+    "publicationDate": "2017-09-24T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 323,
+        "description": "CQRS (Command-Query Responsibility Segregation) is not anything new - it’s been a known for quite some time now. In the simplest form, CQRS only states that commands and queries are executed on different objects. Event Sourcing is a way to handle entity state as a sequence of events instead of the current state (and possible snapshots of the history). Often-heard complait about CQRS is that it introduces unnecessary complexity to a system. Surely, CQRS+ES systems do add quite a few classes/objects; messages; commands; queries; projections; events. But, all of those are themselves simple and often does only one thing, following Single Responsibility Principle. In this interactive talk, I hope to demystify most parts of the CQRS+Event Sourcing approach. In this live demo, we start with existing acceptance test describing a full use case (scenario) and already existing controller and repository layers. The coding happens ”one path at a time” showing how * to handle create a command in controller * to handle commands, logic touching multiple domain services / entities * to create an entity that is event sourced. * to create a projection that represents the state of an event at given time. The code exists in Github, with a separate branch for test-driving it oneself after the event. Code is written in Java, making the live programming easy to follow.",
+        "title": "Live Coding: CQRS + Event Sources system",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "231",
+    "firstName": "Andrea",
+    "lastName": "Provaglio",
+    "bio": "I help knowledge-based organizations, including IT companies, to rethink their organizational dynamics, their organizational structures, their mental models, their practices and their processes, to let them operate better in the 21st century. I work closely with executives, managers and teams and I do a number of things including one-on-one coaching, team coaching, consulting on specific practices and, occasionally, hands-on training. I’m especially interested in distributed leadership and self-organization for knowledge-based organizations, a topic that touches on a number on subjects, including non-conventional organizational structures and individual and collective communication and social skills. And, I’m a long-standing Agile practitioner. In over 20 years of professional experience, I worked with organizations as big the United Nations’ FAO and as small as dynamic post-startup companies, in many different countries. I have a wide range of expertise, in both the public and private sector, with both large and small organizations and with different cultures. Currently I work in Europe. I've also worked in the USA on a O-1 visa for \"extraordinary abilities in Sciences”. As part of my regular activities, I enjoy sharing what I know by speaking at major international conferences.",
+    "shortBio": "Agile Organizational Coach, Strategic IT Consultant, Keynote Speaker",
+    "photoUrl": "/speakers/andreap.jpg",
+    "twitter": "andreaprovaglio",
+    "publicationDate": "2017-02-22T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 231,
+        "description": "The Agile world seems to have recently discovered the importance of \"leadership\". This can be very good news and it can also very bad news. It's bad news if the so-called \"Agile Leadership\" is a way to rebrand traditional management models, along with their underlying mindset, so that they could survive in a rather different cultural ecosystem — namely, Agile. On the other hand, this interest can be very good news if Agile Leadership is seen as something almost entirely new. Something tightly connected to Agile and, therefore, deeply rooted in complexity and empiricism. Something that carries a deep understanding of human dynamics in highly cooperative, intellectually intense social environments. Something that — last but not least — is equipped with a good deal of self-awareness, system-awareness and self-transcendence. Modern and truly Agile organizations want and need to, among other things: explore and validate multiple options, not sticking to predefined plans; learn constantly, re-plan as needed; leverage the collective intelligence of their teams, for better exploration of options and smarter learning; have built-in resiliency when facing sudden change; getting results out of people's participation, not out of people's compliance. In this sense the whole concept of true Agile Leadership is quite important indeed, because it's fundamental to nurture and support those organizations that really embody an Agile culture, and that are so far away from the \"organization as a machine\" approach that's so typical of traditional leadership and management disciplines. Agile Leadership or, rather, the act of \"leading\" in Agile is so much different from those disciplines because it's inherently organic, meaning that it has influence and is influenced on a number of different levels in the individual and in the organization: on the personal level; on the collective level; on current behaviors; on future behaviors; on the social relationship level (trust); on the personal responsibility level (participation); on the formal responsibility level (accountability); on the motivational level and many more. This richness and multidimensionality of the act of leading in Agile is such that simplistic mental models (such as the leader being the \"guy at the top\") simply won't suffice and therefore a more mature understanding and practice of leading is called for, in the entire organization. In this talk we will discuss the case for Agile leadership, why we need it, what are the benefits to the organization and why it's different from other leadership approaches. We'll talk about the individual skills and \"mental stances\" that allow leaders to support an organizational Agile mindset. We'll talk about accountability, personal responsibility and the what it means to influence. Finally, we will challenge a few common assumptions on leadership and suggest alternatives. The intent is to have the attendees leave the room with a fresh perspective on Agile leadership and with practical advice on how to enable this kind on leadership in their organizations. The speaker has been working on Agile cultural shift for organizations for years, helping them to redesign their structures to be consistent with the Agile values, and has been working on Agile leadership well before it became a popular topic.",
+        "title": "Understanding Agile Leadership",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "298",
+    "firstName": "Anton",
+    "lastName": "Arhipov",
+    "bio": "Anton is a Developer Advocate at ZeroTurnaround. Professional interests include programming languages, middleware and tooling. Nominated Java Champion title in 2014, Anton is also involved with GeekOut Java conference in Tallinn, Estonia. He blogs at http://arhipov.blogspot.com, speaks at Java conferences, occasionally writes articles for RebelLabs at <a href=\"http://rebellabs.org\">http://rebellabs.org<\u002fa>",
+    "shortBio": "Java Champion and Developer Advocate at ZeroTurnaround",
+    "photoUrl": "/speakers/antona.jpg",
+    "twitter": "antonarhipov",
+    "publicationDate": "2017-08-07T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 304,
+        "description": "Unit testing is nice, but without a proper integration testing you might not know how your application will behave once it's deployed to the real environment. Before the Docker, configuring the environment for integration testing was painful – people were using fake database implementations, mocking servers, usually it wasn't cross-platform as well. But now, we can easily prepare the environment with Docker for our tests. In this talk I would like to spread the word about TestContainers ( https://github.com/testcontainers/testcontainers-java ) – a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. A year ago we (ZeroTurnaround) decided to join our Docker-based test engine and TestContainers, and now it's open-sourced, available to everyone, so you can test your apps like we do :)",
+        "title": "TestContainers – integration testing without the hassle",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "290",
+    "firstName": "Bruno",
+    "lastName": "Bossola",
+    "bio": "Bruno starts coding in LM on a Vic20, then working in C since 1988, in Java since 1996. He developed distributed objects and large scale application for the enterprise using RMI, CORBA and J2EE. In 1999 he coaches one of the first group that adopts XP method in Italy. In 2002 he has co-founder of Java User Group Torino, in 2005 he's been recognized as Java Champion. He has been promoting Java technologies as a speaker in Italy at developer conferences like Webbit, AgileDay, JavaConference, Javaday and in Europe at Devoxx, Jazoon and Geecon. Now he settled in London and enjoys the weather :)",
+    "shortBio": "VP of Engineering at Workshare",
+    "photoUrl": "/speakers/brunob.JPG",
+    "twitter": null,
+    "publicationDate": "2017-06-28T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 318,
+        "description": "<p>Since I've been working on distributed systems I always wanted to go back in time and teach myself what I know now, in order to avoid the silly mistakes I did! Things like vector clocks, the CAP theorem, how replication really works (and why it's needed), what BASE means and in general all about how this stuff really works!<\u002fp>\r\n\r\n<p>This is the speech I'd needed when wrote my first distributed system and it's something you need to know if you fancy working in this area. And we will also be coding some very simple examples in NodeJS, with working demos where we will kill processes and freeze networks! It's so easy to understand when you see things in action, we will use powerpoint only for some introductory theory!<\u002fp>\r\n\r\n<p>Yep, I am not a big believer of diagrams... show me code!<\u002fp>",
+        "title": "Distributed Systems explained (with NodeJS)",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "297",
+    "firstName": "Chris",
+    "lastName": "Thalinger",
+    "bio": "Chris Thalinger is a software engineer working on Java Virtual Machines for over 13 years. His main expertise is in compiler technology with Just-In-Time compilation in particular. Initially being involved with the CACAO and GNU Classpath projects, the focus shifted to OpenJDK as soon as Sun made the JDK open-source. Ever since Chris has worked on the HotSpot JVM at Sun, Oracle and now at Twitter.",
+    "shortBio": "Compiler engineer working on Java Virtual Machines for over 13 years",
+    "photoUrl": "/speakers/christ.jpg",
+    "twitter": "christhalinger",
+    "publicationDate": "2017-08-04T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 303,
+        "description": "Twitter is a massively distributed system with thousands of machines running thousands of JVMs. In any similar big system a small change in performance and CPU utilization is multiplied thousandfold and results in big savings. Electricity costs, cooling costs, and possibly reduction of server farm size. One way to improve Java performance and reduce CPU utilization is to simply generate better machine code. Simply is obviously not trivial but doable. Twitter is going down that road and experimenting with Graal to generate better code and reduce cost.",
+        "title": "Twitter's quest for a wholly Graal runtime",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "301",
+    "firstName": "Daniel",
+    "lastName": "Sawano",
+    "bio": "Developer, architect, public speaker, author, and agile dude. Long-time builder of high-performance systems with a background in stock trading and gaming. Master of science and a Java programmer for 15+ years. Loves creativity, beautiful software, DDD, TDD/BDD and a whole bunch of other acronyms. Passionate about cloud computing, agile methodologies, and creating systems that are secure by design. Daniel spends most of his days as a senior software engineer at Avanza Bank.",
+    "shortBio": "Developer, architect, public speaker, author, and agile dude",
+    "photoUrl": "/speakers/daniels.jpg",
+    "twitter": "DanielSawano",
+    "publicationDate": "2017-08-19T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 307,
+        "description": "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work.",
+        "title": "Cracking the code to secure software",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "314",
+    "firstName": "Daniel",
+    "lastName": "Deogun",
+    "bio": "Daniel Deogun is a Coder and Quality Defender who brings order to a chaotic world of bits and bytes using good design and clean code. He fights security issues on a daily basis using magic spells from DDD and an overall security mindset. In his spare time, Daniel coauthors the book Secure by Design. As a developer, Daniel started to play with Java in 1997 and his extensive experience ranges from patient critical pacemaker systems to web applications to high performant software in the gaming industry. Combining this with his passion for teaching have made him a frequent speaker at international conferences. Daniel is currently a senior consultant at Omegapoint in Stockholm, Sweden.",
+    "shortBio": "Coder & Quality defender. DDD enthusiast, clean coder, speaker, and author of Secure by Design",
+    "photoUrl": "/speakers/danield.jpg",
+    "twitter": "DanielDeogun",
+    "publicationDate": "2017-09-23T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 307,
+        "description": "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work.",
+        "title": "Cracking the code to secure software",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "319",
+    "firstName": "Ionut",
+    "lastName": "Balosin",
+    "bio": "Software Architect @ Luxoft with 10+ years of experience in a wide variety of business applications. Particularly interested in software architecture and performance & tuning topics. Regular speaker at external conferences (e.g. Logeek, SoftLabs, Voxxed, BJUG, DevTalks, XP Days, Agile Tour) and occasionally technical writer (InfoQ, DZone, etc).",
+    "shortBio": "Java Software Architect @ Luxoft",
+    "photoUrl": "/speakers/ionutb.jpg",
+    "twitter": "ionutbalosin",
+    "publicationDate": "2017-09-27T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 328,
+        "description": "The talk reveals a performance architectural approach from a high level of abstraction down to the hardware. Focused on a top-down approach, it covers the main layers where a software architect or performance engineer must be involved by revealing performance design principles, tactics, patterns, algorithms, strategies, operating system and hardware level optimizations. Description Each of these layers are detailed by offering suggestions and examples (including some performance tests) for the audience regarding what it really matters and what should be avoided when designing for performance. \r\nMain topics: \r\n<p>- design principles (e.g. cohesion, polymorphism / abstractizations, cyclomatic complexity, algorithms complexity, etc) <\u002fp>\r\n<p>- tactics, patterns, algorithms, strategies (e.g. caching, batching, design asynchronous, non-blocking, memory access patterns, lock free algorithms, data structures, etc) <\u002fp>\r\n<p>- operating system (e.g. large pages, NUMA, thread affinity, RamFS/TmpFS, IO Scheduler, etc) <\u002fp>\r\n<p>- hardware (e.g. false sharing, C-states, Zero Bit Recording, Solid State Drive, CPU stalls, Cache misses, etc)<\u002fp>",
+        "title": "Architecting for performance. A top-down approach",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "320",
+    "firstName": "Jacek",
+    "lastName": "Kunicki",
+    "bio": "I'm a passionate software engineer living in the JVM land - mainly, but not limited to. I also tend to play with electronics and hardware. When sharing my knowlegde, I always keep in mind that a working example is worth a thousand words.",
+    "shortBio": "Passionate software engineer",
+    "photoUrl": "/speakers/jacekk.jpg",
+    "twitter": "rucek",
+    "publicationDate": "2017-09-27T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 329,
+        "description": "Stream processing is a hot topic today and it’s easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we’re going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were.",
+        "title": "Tame Your Data with Akka Streams and Java 8",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "321",
+    "firstName": "Jakub",
+    "lastName": "Dżon",
+    "bio": "A developer with 10 years of experience coding on the JVM platform,\r\nmostly in Java and Groovy. Co-implemented a number of telco, banking\r\nand general purpose “core” systems, recently leading development of\r\nhigh-QPS DSP platform in Ad Tech company - Codewise. Alongside\r\ndeveloping in Java, Jakub is GeeCon co-organizer and proud father.\r\nJakub is not all work though, in his free time he likes to write code.",
+    "shortBio": "A developer with 10 years of experience coding on the JVM platform",
+    "photoUrl": "/speakers/kubad.jpg",
+    "twitter": null,
+    "publicationDate": "2017-10-01T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 330,
+        "description": "Ad Technology companies employ highly sophisticated software to\r\nprocess and respond to hundreds of thousands of requests per second to\r\ndisplay on-line ads that will build the brand awareness, encourage you\r\nto visit promoted pages or buy advertised merchandise. Processing\r\nstream of requests that has fluctuating volume throughout a day calls\r\nfor proper architectural solutions that will guarantee undisturbed\r\noperations. Let’s study the case of Codewise’s Ad Tech Platform - it’s\r\npurpose, architecture, architectural alternatives and evolution.",
+        "title": "High request rate system architecture - an Ad Tech case study",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "322",
+    "firstName": "Jakub",
+    "lastName": "Fojtl",
+    "bio": "For the last 3 years, Jakub has been working as a product architect at Y Soft where he takes care of the company’s flagship product, YSoft SafeQ, an enterprise workflow solutions platform. As a platform, YSoft SafeQ is a distributed system for managing the printing, scanning, and copying of paper documents and the printing and management of 3D printers. Before joining Y Soft, he worked as a .NET and Java developer on printing and IS for hospitals. He organizes the Y Soft Technology Hour meetup in Prague and, in 2013, he established the Brno branch of the CodeRetreat event. In his spare time, he enjoys studying distributed systems and bicycling.",
+    "shortBio": "Product Architect at Y Soft",
+    "photoUrl": "/speakers/jakubf.jpg",
+    "twitter": null,
+    "publicationDate": "2017-10-04T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 331,
+        "description": "Today’s world of distributed databases is dominated by raft or paxos based databases. The reason is simple - it offers similar properties as relational databases - such as ACID transactions, however, with huge operational overhead. But there is another computation model, which might be more suitable for distributed scenarios - especially, when you need to scale huge number of write operations. The world of consistent hashing functions and infinispan is an awesome example of that. I will share a story about how we achieve high availability in situations where the infrastructure is out of your control.",
+        "title": "Infinispan in the world dominated by raft",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "326",
+    "firstName": "Jarek",
+    "lastName": "Ratajski",
+    "bio": "I love programming since my first line of code I did on the C64 in Basic. Somewhere in 90ties I've switched from C++ to java and spent then 16 Years developing JavaEE software working for various companies and projects.  Now I work for Engenius in Schweiz being Java developer at banks during the days and Scala/ScalaJS open sources hacker at nights.",
+    "shortBio": "JVM developer since 1999",
+    "photoUrl": "/speakers/jarekr.jpg",
+    "twitter": "jarek000000",
+    "publicationDate": "2017-10-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 337,
+        "description": "Have you ever tried to visualize a system you are working on? There are lots of tools that can help, they create nice diagrams (UML) or charts. They work, but after a while are boring. Because they are flat! Thanks to the new toys such as Oculus Rift or HTC Vive you can see the things from a new perspective. You can actually immerse yourself in code. Imagine: you can walk around the classes and touch methods with your hands. That is crazy experience... a toy - but maybe a revolution and new way of looking at dashboards, diagrams ..and maybe your future IDE. I will show you my experiments and how to quickly build similar ones with webvr and aframe framework.",
+        "title": "Walking in Code – VR experience",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "312",
+    "firstName": "Jaroslav",
+    "lastName": "Tulach",
+    "bio": "Jaroslav is the founder and initial architect of NetBeans, which is not just a well known IDE, but also the first modular desktop application framework written in Java. Jaroslav devoted last five years to design of interoperability between Java, JavaScript and other dynamic languages. Jaroslav is working for OracleLabs helping GraalVM to be better, faster and more polyglot JVM.",
+    "shortBio": "NetBeans Platform Architect. Working on GraalVM at OracleLabs",
+    "photoUrl": "/speakers/jaroslavt.jpg",
+    "twitter": "JaroslavTulach",
+    "publicationDate": "2017-09-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 317,
+        "description": "Are you a Java developer knowledgeable of Spring, JavaEE, OSGi, injection, JavaFX, or even Swing? Have you noticed the decline of buzz around these technologies? Are you wondering what the buzz about Angular.js, React.js, node.js, Ruby on Rails, Python mean in context of Java? Are you about to give up on JVM and learn completely new technologies? You don't have to. There is, in our opinion, a way to find synergy between the stability and maturity of Java and the best ideas in the emerging and popular technologies out there. Let us walk you through the history of Java/JavaScript relation, describe various attempts to bridge one to the other and finally show you OracleLabs GraalVM - polyglot JVM capable to execute Java, JavaScript, Ruby, R & other languages at full speed and full interop. Let us show you how easy it is to introduce the new languages and their ideas in an incremental fashion while building your existing Java enterprise workflow. Sun Microsystems motto used to be \"Innovation happens elsewhere\" - let us show you that JVM and Java ecosystem are still a place where great innovations can happen.",
+        "title": "JavaScript & co. for Java Developers",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "309",
+    "firstName": "Jez",
+    "lastName": "Halford",
+    "bio": "Jez is a software development consultant who's helped companies including ARM, Lloyds Bank and 118 118 to build better software faster. Interested in the human side of development, his work spans user experience, project management, software design, development methodologies and more. When he's not working, Jez likes cooking delicious things, trying to find common ground with his aloof cat, and going on holiday.",
+    "shortBio": "Software consultant interested in Kanban, DevOps, Agile and the human side of development",
+    "photoUrl": "/speakers/jezh.jpg",
+    "twitter": "jezhalford",
+    "publicationDate": "2017-09-03T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 314,
+        "description": "There are seven things that slow your software team down. Learning to conquer each of them is the key delivering faster. Originating in the Japanese manufacturing industry at the turn of the 20th century, the ideas behind the seven wastes are still hugely relevant to software development today. I'll explain each one and how it slows you down, then I'll explain how you can defeat the seven wastes and deliver faster than ever before. This talk is aimed at anyone managing or working within a software team, and should be useful at all levels.",
+        "title": "Software's Seven Deadly Wastes",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "296",
+    "firstName": "Kevlin",
+    "lastName": "Henney",
+    "bio": "<p>Kevlin Henney (<a href=\"http://twitter.com/KevlinHenney\">@KevlinHenney<\u002fa>) is an independent consultant and trainer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for various magazines and web sites, including Better Software, The Register, Application Development Advisor, Java Report and the C/C++ Users Journal. Kevlin is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of the <a href=\"http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know\">97 Things Every Programmer Should Know<\u002fa> site and book.",
+    "shortBio": "Independent consultant and trainer. Author and columnist for various magazines and web sites",
+    "photoUrl": "/speakers/kevlin_h.jpg",
+    "twitter": null,
+    "publicationDate": "2017-07-31T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 334,
+        "description": "<p> There is often a lot of talk about full-stack developers, but with few exceptions such developers only touch on a subset of the technologies and practices that constitute a full stack. The focus is largely on using web frameworks and databases, but device drivers, middleware development and other forms of systems programming are normally missing from the \"full stack\".<\u002fp><p>\r\n\r\nThis talk, however, has little to do with that: it actually is about stacks. They appear all over code and computer science, from call stacks to undo lists to common examples for testing and specification. This talk will use the stack as its vehicle to drive through a number of topics of interest and relevance to the modern developer, from state machines to functional programming, from unit tests to concurrency, from the code to the real full stack of development.<\u002fp>",
+        "title": "Full Stack Developer",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      },
+      {
+        "id": 333,
+        "description": "\"It's just a detail.\" Have you ever said that or been told that? Whether\r\n it's about implementation or requirements, we often use the word detail to\r\n suggest that something is not important enough to worry about. There are so\r\n many things to worry about in software development that we need to\r\n prioritise — too much detail, not enough focus. The problem is that in\r\nsoftware, the details matter because that is what software is: lots of\r\n details brought together in combination. If we don't focus on the details,\r\n we get debt, defects and delays.",
+        "title": "Software Is Details",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "329",
+    "firstName": "Lukas",
+    "lastName": "Jungmann",
+    "bio": "Principal software developer at Oracle, currently spec lead on JSR 338 Java Persistence 2.1 and expert group member of JSR 367 Java API for JSON Binding (JSON-B) and JSR 374 Java API for JSON Processing 1.1 with main responsibilities on projects EclipseLink and JSon-P reference implementation, contributing also to JSon-B reference implementation. Previously worked on a Metro/JAX-WS/JAXB/GlassFish/NetBeans projects.",
+    "shortBio": "Principal software developer at Oracle, currently spec lead on JSR 338, JSR 224 and JSR 67",
+    "photoUrl": "/speakers/lukasj.jpg",
+    "twitter": "jlukas",
+    "publicationDate": "2017-10-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 340,
+        "description": "During this session, we will cover in details the new capabilities that have been added in the latest release of the Java EE platform, i.e. Java EE 8. - JAX-RS 2.1’s new Reactive client API - Bean Validation 2.0 improvements - Servlet 4.0 HTTP/2 support - CDI 2.0 Asynchronous events - The addition of a new JSON Binding API, i.e. JSON-B 1.0 - A new cross-platform security API ... We will then discuss the recently announced move of Java EE to an open source foundation and what it exactly means. Attend this session to understand what Java EE 8 brings today and where Java EE is going tomorrow!",
+        "title": "Java EE 8 finally final! Now what?",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "292",
+    "firstName": "Mark",
+    "lastName": "Heckler",
+    "bio": "Mark Heckler is a Pivotal Principal Technologist & Spring Developer Advocate, conference speaker, published author, & Java Champion focusing upon developing innovative production-ready software at velocity for the Cloud and IoT applications. He has worked with key players in the manufacturing, retail, medical, scientific, telecom, and financial industries and various public sector organizations to develop and deliver critical capabilities on time and on budget. Mark is an open source contributor and author/curator of a developer-focused blog ( <a href = \"https://www.thehecklers.org\">https://www.thehecklers.org <\u002fa>) and an occasionally interesting Twitter account (<a href = \"http://twitter.com/mkheck\"> @mkheck <\u002fa>). Mark lives with his very understanding wife in St. Louis, MO USA.",
+    "shortBio": "Developer Advocate, conference speaker, published author, & Java Champion",
+    "photoUrl": "/speakers/markh.jpg",
+    "twitter": "mkheck",
+    "publicationDate": "2017-06-30T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 299,
+        "description": "Reactive programming offers Java developers a way to build message-driven, elastic, resilient, and responsive services...yet many Java developers don't know where to begin. The Reactive Streams initiative provides a baseline and Project Reactor provides a great way to become immediately productive, leveraging reactive capabilities from end to end. Whether you're coming from a Spring MVC environment or a functional perspective, Reactor empowers you to spin up fully reactive Spring Boot 2 applications quickly and efficiently.<\u002fp><p>\r\n\r\nIn this talk, the presenter dives into the net-new Netty-based web runtime and shows you how to:\r\n<\u002fp><p>\r\n<li> integrate easily with existing Spring-stack technologies\r\n<\u002fli><li> easily transition from blocking to reactive applications & systems\r\n<\u002fli><li> define your API in an imperative style *and* functionally, reaping all benefits both ways\r\n<\u002fli><li> leverage powerful new testing mechanisms to make code better and life easier<\u002fli>\r\n<\u002fp><p>\r\n_The presenter will code all examples live and in real time_. This is not an abstract discussion, come to gain real, practical knowledge!<\u002fp>",
+        "title": "Full-stack Reactive Java with Project Reactor & Spring Boot 2",
+        "materialsUrl": null,
+        "type": "Tak",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "293",
+    "firstName": "Mark",
+    "lastName": "West",
+    "bio": "<p>Originally from the UK, Mark is now based in Oslo where he works as a manager at Bouvet, a Norwegian IT Consultancy. He is an avid Maker and IoT hobbyist, and has far too many projects currently in progress.<\u002fp><p>In what is left of his spare time Mark is involved in javaBin (the Norwegian JUG) where he helps organise community events such as JavaZone and JavaZone Kids.  <\u002fp>",
+    "shortBio": "Coding and IoT enthusiast",
+    "photoUrl": "/speakers/markw.jpg",
+    "twitter": "markawest",
+    "publicationDate": "2017-06-30T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 301,
+        "description": "<p>In this session, I’ll share how I transformed a lowly Raspberry Pi Zero W webcam into a smart security camera (with motion detection, threat analysis and alert notifications) by combining open source software with cloud based image analysis.\r\n<\u002fp><p>\r\nAttendees can expect a short explanation of how to set up their own motion activated webcam and a demonstration of how they can use Java and a range of AWS Services (including Rekognition, Lambda Functions and Step Functions) to help their camera distinguish between an unwanted guest and the neighbour’s cat.\r\n<\u002fp><p>\r\nFinally we’ll compare Node.js and Java versions of this solution and compare them in terms of execution speed, operating cost and ease of development.<\u002fp>",
+        "title": "Building a Smart Security Camera with Raspberry Pi Zero, Java and AWS",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "291",
+    "firstName": "Martin",
+    "lastName": "Thompson",
+    "bio": "<p>Martin is a Java Champion with over 2 decades of experience building complex and high-performance computing systems. He is most recently known for his work on Aeron and SBE. Previously at LMAX he was the co-founder and CTO when he created the Disruptor. Prior to LMAX Martin worked for Betfair, three different content companies wrestling with the world largest product catalogues, and was a lead on some of the most significant C++ and Java systems of the 1990s in the automotive and finance domains.\r\n<\u002fp><p>\r\nHe blogs at <a href=\"https://mechanical-sympathy.blogspot.com\">mechanical-sympathy.blogspot.com <\u002fa> , and can be found giving training courses on performance and concurrency when he is not cutting code to make systems better.<\u002fp>",
+    "shortBio": "Java Champion, performance gangster",
+    "photoUrl": "/speakers/martint.jpg",
+    "twitter": null,
+    "publicationDate": "2017-06-30T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 316,
+        "description": "Have you ever wondered what is the design process when someone designs a new software system that is faster than anything that has gone before? In this talk we will explore some of the key design decisions which lead to Aeron having the best throughput and latency in the messaging space. Sometimes this is going against common wisdom like having to choose between throughput or latency. Sometimes the focus on a new feature can open opportunities not previously considered. \r\n\r\nYou may also think that since you don't work in high frequency trading that you don't need high-performance messaging. We'll wrap up with some examples outside of finance that have benefited from high-performance messaging with surprising results.",
+        "title": "What was the design process behind the fastest Messaging System?",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      },
+      {
+        "id": 325,
+        "description": "TBD",
+        "title": "High Performance Managed Languages",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "307",
+    "firstName": "Martin",
+    "lastName": "Toshev",
+    "bio": "Martin is an IT consultant, Java enthusiast and has been heavily involved in the activities of the Bulgarian Java User group (BG JUG) . His areas of interest include the wide range of Java-related technologies (such as Servlets, JSP, JAXB, JAXP, JMS, JMX, JAX-RS, JAX-WS, Hibernate, Spring Framework, Liferay Portal and Eclipse RCP), cloud computing technologies, cloud-based software architectures, enterprise application integration, relational and NoSQL databases. You can reach him for any Java and FOSS-related topics (especially Eclipse and the OpenJDK). Martin is also a regular speaker at Java conferences and helps with the organization of the jPrime conference in Bulgaria (<a href= http://jprime.io> http://jprime.io <\u002fa> ).",
+    "shortBio": "Martin is an IT consultant, Java enthusiast and a co-lead of the Bulgarian Java user group (BG JUG)",
+    "photoUrl": "/speakers/martinto.jpg",
+    "twitter": "martin_fmi",
+    "publicationDate": "2017-08-29T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 311,
+        "description": "Apart from cool new features like the Java module system, a new process API and a brand new Java shell Java 9 also brings a lot of cool new security enhancements. These include DTLS (Datagram Transport Layer Security), extensions to the TLS negotiation, default PKCS12 stores and others. These may sound a bit specific at first and one may ask: what are their practical applications ? In the session we will demonstrate all those new features in a series of examples with some gory details. Session overview: - recap: TLS support up to JDK 8 via the JSSE (Java Secure Socket Extension) - demo: custom Java application server that integrates banking applications via different protocols and provides JSSE support - DTLS support in JDK 9 (as provided by JEP 219) - demo: the application server is extended with DTLS support (as provided by JDK 9) in order to support a legacy unrelaiable banking protocol - overview of the TLS protocol negoation extension in JDK 9 (as provided JEP 244) - demo: extending the application server and existing integrations with TLS protocol negotation - overview of the rest of the security enhancements in JDK 9 in a series of short examples around the sample application server Target level: expert.",
+        "title": "Java 9 security enhancements in practice",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "313",
+    "firstName": "Martin",
+    "lastName": "Hochel",
+    "bio": "Martin is a software engineer with strong passion for JavaScript and clean code. He loves contributing to open source ( ngMetadata , SkateJS , Preact, Angular, React) and also runs ngParty meetup group in Prague. Martin loves to travel the world and meeting new people at conferences. When he’s not busy preparing the next meetup or talk, you might find him outside on his skate/snow/wake boards (depends on weather conditions yo!)",
+    "shortBio": "Software engineer with strong passion for JavaScript and clean code",
+    "photoUrl": "/speakers/martinh.jpg",
+    "twitter": "martin_hotell",
+    "publicationDate": "2017-09-21T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 319,
+        "description": "<l>React in enterprise?\r\nYou may say: Oh c’mon dude, It’s just a renderer library, how could it be possibly\r\nsuitable for enterprise where we need so many puzzles for large and maintainable SPA like\r\nDependency Injection, I18n support, Service layer, State Management, Http client, Routing\r\nsolution, robust Unit testing and E2E solution and many others.\r\nIn this session I will show you how to get all the pieces together and how we write SPA’s\r\nwith React at EmbedIT. And yes Typescript is included. <\u002fl>\r\n<l>P.S.: Pssst, hopefully you might be able to ditch Angular after this talk. <\u002fl>",
+        "title": "Enterprise React",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "323",
+    "firstName": "Martin",
+    "lastName": "Osovský",
+    "bio": "As a member of Y Soft’s R&D management team, Martin leads the Product Architects division since 2014. During his career at Y Soft, he has gained strong expertise in designing robust distributed applications. With responsibility for product architecture, he explores different software development methodologies and processes while looking for the most effective combinations of different approaches. Previously in his career, Martin created a strong skillset in developing Windows system applications with a deep knowledge of the C and C++ languages, the Win32 API and the internals of Windows NT. His role at Y Soft also includes being a contact for anyone interested in abstract mathematics, biology, history, art, and linguistics.",
+    "shortBio": "Chief Architect at Y Soft",
+    "photoUrl": "/speakers/martino.jpg",
+    "twitter": null,
+    "publicationDate": "2017-10-04T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 332,
+        "description": "<l>In the world of new design concepts, where software development is extremely fast, we build, we test, we release and we try to validate that our customers are satisfied with what we delivered. <\u002fl>\r\n<l>How do we know that we are targeting the right values? What is the proper value of our product? Is it the full set of functionalities we provide to our customers, or is it how they are performing that really matters?\r\nWe want to demonstrate that a qualitative approach is what really matters. How can we be proactive and create a product with healthy foundations, where behaviors are consistent across all functionalities we provide? \r\nWhat are the selling points of our product, and how can we validate that we are going in the right direction when improving it on an iterative basis? We would like to highlight our experience including all the trials and errors that it took us from the first idea about validation to where we are now.<\u002fl>\r\n<l>Also we will discuss what we consider the most typical obstacles to be aware of when working with developers, business people and customers.<\u002fl>",
+        "title": "Validation is more important than design",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "295",
+    "firstName": "Mihail",
+    "lastName": "Mateev",
+    "bio": "Hello! I am a technical consultant, community enthusiast, PASS Regional Mentor for CEE, chapter lead, Microsoft MVP in two areas – Microsoft Azure and Data Platform, Microsoft Regional Director. I work as a Senior Solutions Architect at EPAM Systems, focused on Data Platform, IoT and cloud related solutions. I also worked many years like a Technical evangelist, Consultant and Solutions Architect using different technologies. Last years I focused on various areas related to Microsoft technology: Data Platform, Visual Studio, ASP.Net, Windows apps, Data Platform, and Microsoft Azure. I also hold a PhD degree in cloud computing area. I am a university lecturer on Smart Homes and Smart Energy IoT Solutions. I did more than 100 public presentations for the last 5 years and I’m co-organizer of 22 IT conferences and around 80 meetups. I’m available if you have questions or need any additional information. Thanks!",
+    "shortBio": "PASS Regional Mentor for CEE, Microsoft Regional Director, PhD in cloud computing",
+    "photoUrl": "/speakers/mihailm.jpeg",
+    "twitter": "mihailmateev",
+    "publicationDate": "2017-07-21T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 302,
+        "description": "CosmosDB service is a NoSQL is a globally distributed, multi-model database database service designed for scalable and high performance modern applications. CosmosDB is delivered as a fully managed service with an enterprise grade SLA. It supports querying of documents using a familiar SQL over hierarchical JSON documents. Azure Cosmos DB is a superset of the DocumentDB service. It allows you to store and query noSQL data, regardless of schema. In this presentation, you will learn: \r\n<li> How to get started with CosmosDB you provision a new database account. \r\n<\u002fli><li>How to index documents \r\n<\u002fli><li>How to create applications using CosmosDB (using REST API or programming libraries for several popular language) \r\n<\u002fli><li> Best practices designing applications with CosmosDB \r\n<\u002fli><li>Best practices creating queries.<\u002fli>",
+        "title": "Dealing with CosmosDB",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "316",
+    "firstName": "Niek",
+    "lastName": "Palm",
+    "bio": "Niek is working for more than 10 years in various function in IT he did a lot of open source based development, had architecture roles, setup continuous delivery for several projects and made several trainings and workshops. Currently he is working as Software Architect for Philips Research on rapid prototyping and using dozen of modern technologies like AWS, Terraform, Spring Cloud, React, React Native, GitLabCi, Docker, Elastic Search and much more.",
+    "shortBio": "Docker Java Cloud Nerd Microservices Terraform CD",
+    "photoUrl": "/speakers/niekp.jpg",
+    "twitter": "niekos77",
+    "publicationDate": "2017-09-24T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 324,
+        "description": "Today we build most of our API’s in a RESTful way by delivering json data. This approach creates a tight and inflexible coupling between front- and back-end, and requires many client server interactions. This way of using an API on mobile devices, which are typically connected via unreliable, slow, and high latency networks, causes developers a lot of headaches. However, there is a new API kid on the block: GraphQL that solves this issues. GraphQL is a new way of specifying an API based on the demand of the API consumer. I will show you the the power of GraphQL and what you can do with GraphQL that could not be done with REST.",
+        "title": "GraphQL - The Next API Language",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "317",
+    "firstName": "Peter",
+    "lastName": "Hilton",
+    "bio": "Peter Hilton is a software developer, writer, speaker, trainer, and musician. Peter’s professional interests are business process management, web application development, functional design, agile software development and documentation. Peter currently consults for Signavio in Berlin, and delivers the occasional presentation and workshop. Peter’s software development interests include process management, web applications, service architecture, software development methodology and practices, and web-based collaboration. Peter has presented at several European developer conferences, including GeeCON, I T.A.K.E., ACCU, Scala eXchange, Devoxx, Øredev, Jfokus, Javazone, geecon, Codemotion and TopConf. Peter co-authored ‘Play for Scala’ (Manning Publications) and has taught ‘Fast Track to Play with Scala’.",
+    "shortBio": "Developer, writer, speaker, trainer and musician",
+    "photoUrl": "/speakers/peterh.jpg",
+    "twitter": "PeterHilton",
+    "publicationDate": "2017-09-27T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 326,
+        "description": "The problem that new technology doesn’t fix is unmaintainable code. The core of maintainable code is clean code with good tests, but that by itself isn’t enough. This talk introduces techniques for optimising code for maintainability, including getting better at naming, explaining code with tests, which code comments you actually need, README-driven development and Minimum Viable Documentation. Traditional, software maintenance involves too much documentation and comments that no-one writes. Meanwhile, naming and abstraction are too hard to always get right, so you need small doses of comments and documentation. More importantly, you need to avoid wasting time on bad comments and documentation without giving up on them entirely. After the excitement of adopting new technology and software craftsmanship comes the horror of your next maintenance project. As Jean-Paul Sartre said*, ‘Hell is other people’s code’. As a lead developer, your future happiness depends on maintainable code.",
+        "title": "How to write maintainable code",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "328",
+    "firstName": "Peter",
+    "lastName": "Palaga",
+    "bio": "Peter Palaga is a Senior Sustaining Engineer for JBoss EAP at Red Hat and the main author of srcdeps. Maven builds and maintenance of complex dependency hierarchies belong to his daily duties.",
+    "shortBio": "Author of srcdeps, Senior Sustaining Engineer at Red Hat Middleware",
+    "photoUrl": "/speakers/peterp.jpeg",
+    "twitter": "ppalaga",
+    "publicationDate": "2017-10-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 339,
+        "description": "While the idea of source dependencies is not new -- some languages have it already -- its implementation in the field of Java and its build tools is a novetly. With srcdeps, a Maven or Gradle project can define its dependencies in terms of specific source commits that are built by srcdeps \"on the fly\" when they are requested. Such source dependencies do not need to be present in any remote Maven repository - i.e. they do not need to be released. We will compare srcdeps with Maven SNAPSHOTs and show how they can be useful in testing and integration or for fixing third-party code. In a live demo, we will show how to switch a dependency from a released version to a source revision.",
+        "title": "srcdeps - source dependencies with Maven and Gradle",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "300",
+    "firstName": "Piotr",
+    "lastName": "Jagielski",
+    "bio": "JVM developer for 10+ years, last 2 years exploring interactive development with Clojure and live-coding music with Overtone.",
+    "shortBio": "Java, Kotlin, Clojure developer",
+    "photoUrl": "/speakers/piotrj.jpg",
+    "twitter": "pjagielski",
+    "publicationDate": "2017-08-07T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 306,
+        "description": "In this talk I'll give a short introduction to interactive development with Clojure followed by some examples of using Overtone - Clojure library for music programming. I'll focus on playing melodies, making beats and looping straight from your IDE, which can be used in live on-stage dance music performances. No Clojure or music theory knowledge needed.",
+        "title": "Sequencing Dance Music with Clojure",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "310",
+    "firstName": "Quentin",
+    "lastName": "Adam",
+    "bio": "Quentin ADAM is the CEO of Clever Cloud: an IT automation company, running a Platform as a Service allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.",
+    "shortBio": "Clever Cloud CEO",
+    "photoUrl": "/speakers/quentina.jpg",
+    "twitter": "waxzce",
+    "publicationDate": "2017-09-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 315,
+        "description": "Everybody is now using virtualization, containers are all the rage today, and microkernels start to gain traction… But how is all this working? How did these solutions come to be? What are the differences between containers and virtual machines? Where and why should you use docker, runc, rocket, kvm, xen, virtualbox, includeOS, rancherOS? This talk is a full session providing understanding on how these technologies work, how they compare to each other, and lot’s of demo to understand differences and fundamental concept on isolation. So, let’s look under the hood, and understand how your system works (hint: it’s not magic). And yes, it will be understandable even if you are not an OPS or an expert. That’s precisely the point. Takeway is a short track around linux low level. Understanding WHAT is really a container behind the mist of dark magic docker/container marketing. Be able to ask yourself good questions about performances. From java expert to docker guru? Ok, let understand the last 10 years of linux kernel release notes you haven’t read.",
+        "title": "Deep dive and learn about your Operating System",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "304",
+    "firstName": "Robert",
+    "lastName": "Munteanu",
+    "bio": "Working as a Senior Computer Scientist at Adobe, Robert Munteanu is a software developer with a passion for Open Source. He is a frequent contributor to Open Source projects, such as Apache Sling, MantisBT and the Eclipse Plugin for ReviewBoard. Robert is a frequent conference speaker, including Devoxx, ApacheCon and EclipseCon.",
+    "shortBio": "That open source guy",
+    "photoUrl": "/speakers/robertmu.jpg",
+    "twitter": "rombert",
+    "publicationDate": "2017-08-28T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 312,
+        "description": "Microservices are quickly becoming one of the preferred deployment models in the software industry. Much has been said about the runtime impact of microservices, but less about how they impact the development process. This talk will discuss the details of moving from a single monolithic codebase to multiple repositories in terms of the development process. We will present the impact of modularisation on source control, continuous integration, code reviews, IDEs and public discussion on chat/email. After this talk attendees will have a better understanding on the impact of the development process of modular development.",
+        "title": "Scaling up development of a modular code base",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "308",
+    "firstName": "Roman",
+    "lastName": "Pickl",
+    "bio": "As Chief Technical Officer, Roman is in charge of the technical development at Fluidtime. He has comprehensive experience in project management, the technical coordination of national and international mobility projects and the optimisation of business and development processes. Roman Pickl studied business management and commercial information technology at the Vienna University of Economics and Business and the University of Technology, Sydney, as well as software engineering at the University of Applied Sciences Technikum Wien. There he specialised in the fields of entrepreneurship & innovation management, project & process management and information management as well as software evolution and mobile computing.",
+    "shortBio": "Technologist, Speaker, Mobility Expert, Innovation, CTO @Fluidtime",
+    "photoUrl": "/speakers/romanp.jpg",
+    "twitter": "rompic",
+    "publicationDate": "2017-09-03T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 313,
+        "description": "SonarQube is the leading platform for static code analysis and Continuous Code Quality. In this talk we will look into all three lines of defense of the SonarEcosystem and how they can help to find bugs before they enter your codebase (or at least go into production). After this talk, you’ll have a good overview of the SonarEcosystem as well as actionable starting points for increasing your code quality. Furthermore, we will share learnings from using SonarQube for more than 4 years and pointers to additional resources. I first talked about this topic at the local java meetup in vienna and received very favorable feedback.",
+        "title": "Continuous Code Quality with the SonarEcosystem",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "306",
+    "firstName": "Sebastian",
+    "lastName": "Carroll",
+    "bio": "Sebastian Carroll is a NiFi specialist based in EMEA who has been with Hortonworks for a year. He was previously working on Big Data and Software Engineering projects with Raytheon and Lockheed Martin in Australia and first started using NiFi three years ago. He immediately felt the benefits that NiFi brings and has been an evangelist of the software ever since. Sebastian is also an Agile junkie who sees no limit to the scenarios to which those principles can be applied",
+    "shortBio": "NiFi specialist, Agile Junkie and Big Data passionate",
+    "photoUrl": "/speakers/sebastianc.jpg",
+    "twitter": "sebjcarroll",
+    "publicationDate": "2017-08-28T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 310,
+        "description": "Principles of Agile are starting to move outside of the realm of software development into many other aspects of business. This is also expanding into the world of Data Management. One very important and poorly understood section of data management is data in motion. Data being moved is traditionally hard to track and the systems that do this are either rigid and inflexible or custom, complex and difficult to maintain. Apache NiFi specialises in moving data in a way that is simple and easy to change, with a number of features that improve data security, visibility and governance. In the session I will introduce Apache NiFi application to some common scenarios and show how it works with some awesome demos.",
+        "title": "Agile Data with Apache Nifi",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "294",
+    "firstName": "Thorben",
+    "lastName": "Janssen",
+    "bio": "Thorben Janssen is an independent trainer and author of the Amazon bestselling book Hibernate Tips - More than 70 solutions to common Hibernate problems. He has been working with Java and Java EE for more than 15 years, and he is a member of the CDI 2.0 expert group (JSR 365). He writes about Java EE related topics on his blog <a href = \"https://www.thoughts-on-java.org\"> https://www.thoughts-on-java.org <\u002fa>",
+    "shortBio": "Independent author, trainer, consultant and Hibernate enthusiast",
+    "photoUrl": "/speakers/thorbenj.jpeg",
+    "twitter": "thjanssen123",
+    "publicationDate": "2017-07-12T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 300,
+        "description": "You probably know this situation: Your customer asks you to implement “just a tiny, little change”. After a few hours … or days … you recognize that you can’t implement it that easily. At some point, you might even think: “I can’t be the first who tries to implements this!” And you’re probably right … Hibernate provides a bunch of lesser known features that help you to implement common requirements quickly. The problem is that most developers don’t know about them. They spend days to create their own solution when it just takes an annotation or a few lines of code to: - implement multi-tenancy - support a database-specific data type - map an SQL-snippet instead of a database column to an entity attribute - retrieve the elements of a mapped association in a defined order - generate UUIDs as primary keys - write an audit log documenting all changes performed to an entity - and more …",
+        "title": "Hibernate Tips ‘n’ Tricks - 15 Tips to solve common problems",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "305",
+    "firstName": "Todd",
+    "lastName": "Montgomery",
+    "bio": "Todd Montgomery is a networking hacker who has researched, designed,\r\nand built numerous protocols, messaging-oriented middleware systems,\r\nand real-time data systems, done research for NASA, contributed to the\r\nIETF and IEEE, and co-founded two startups. He currently works as an\r\nindependent consultant on high performance systems and is active in\r\nseveral open source projects, including Agrona, Aeron, ReactiveSocket,\r\nand the FIX Simple Binary Encoding (SBE).",
+    "shortBio": "Networking hacker",
+    "photoUrl": "/speakers/toddm.jpg",
+    "twitter": "toddlmontgomery",
+    "publicationDate": "2017-08-28T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 321,
+        "description": "<l>Common wisdom dictates that native languages are the only means of\r\nbuilding high-performance applications. How do managed runtimes such\r\nas those available to .NET, Java, and even JavaScript, yes even\r\nJavaScript compare? Many applications requiring high-performance are\r\nnow developed for managed runtimes - such as financial trading, data\r\nstores and analytics, messaging, and even supercomputing.<\u002fl>\r\n\r\n<l>Over the last few decades we have seen significant advances in managed\r\nruntimes, particularly for JIT compilers and garbage collectors. In\r\nthis talk we will explore how our managed runtimes can equal, and even\r\nbetter in some cases, the performance of native languages.<\u002fl>",
+        "title": "High Performance Managed Languages",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      },
+      {
+        "id": 335,
+        "description": "<p>All too often quality comes along as an afterthought to the software systems we build. Sometimes quality is not even a concern at all. However, increasingly our systems have to be right the first time. Software is hard to design and implement. Let alone design and implement well. What can we do to be better at designing and delivering better software and systems? Does language choice, such as Java vs. C++ vs. C vs. Erlang really matter in terms of producing quality software? Can you actually produce quality systems on budget and on time?<\u002fp>\r\n<p>In this session, we will discuss lessons learned from almost a decade of working on NASA software projects that had to work correctly or people could die. And how these lessons continue to impact the speakers mindset and outlook on a daily basis.<\u002fp>",
+        "title": "Making It Count: Quality is Not Optional",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      },
+      {
+        "id": 316,
+        "description": "Have you ever wondered what is the design process when someone designs a new software system that is faster than anything that has gone before? In this talk we will explore some of the key design decisions which lead to Aeron having the best throughput and latency in the messaging space. Sometimes this is going against common wisdom like having to choose between throughput or latency. Sometimes the focus on a new feature can open opportunities not previously considered. \r\n\r\nYou may also think that since you don't work in high frequency trading that you don't need high-performance messaging. We'll wrap up with some examples outside of finance that have benefited from high-performance messaging with surprising results.",
+        "title": "What was the design process behind the fastest Messaging System?",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "327",
+    "firstName": "Tomer",
+    "lastName": "Gabel",
+    "bio": "A programming junkie and computer history aficionado, Tomer's been around the block a few times before settling at Wix as a system architect. In the last few of years he's developed a major crush on Scala, promoting it within the Israeli software industry as part of Java.IL (Israeli Java user group) and Underscore (Israeli Scala user group) and organizing the annual Scalapeño conference in Tel-Aviv.",
+    "shortBio": "Oddball extraordinaire",
+    "photoUrl": "/speakers/tomerg.jpg",
+    "twitter": "tomerg",
+    "publicationDate": "2017-10-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 338,
+        "description": "This talk revisits dependency injection, and attempts to answer a single question honestly, or at least while pointing out and acknowledging the biases at play: \"is dependency injection a good thing?\" Dependency injection has fast established itself as a major design pattern in modern software. No longer the province of server-side and enterprise software, it is now a fundamental component of frameworks from Spring to Angular.js. With such widespread success, the time is ripe to take a fresh look at dependency injection if we are to understand it better. After all, DI is instrumental in building large systems that are loosely coupled, and it cleanly separates your tests from implementation... or does it?",
+        "title": "Slaying Sacred Cows: Deconstructing Dependency Injection",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "302",
+    "firstName": "Vaclav",
+    "lastName": "Pech",
+    "bio": "Václav is passionate about programming in all its forms and flavours. He's keenly interested in server-side Java technologies, distributed and concurrent systems, modern programming languages and DSLs. He has joined JetBrains on a mission to empower developers with top-notch development tools. He's currently involved in the MPS project, developing a projectional DSL workbench and building customized DSLs.",
+    "shortBio": "Passionate about programming in all its forms and flavours",
+    "photoUrl": "/speakers/vaclavp.jpg",
+    "twitter": "vaclav_pech",
+    "publicationDate": "2017-08-19T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 308,
+        "description": "People often develop dialects and domain-specific lingo that let them describe things accurately and communicate effectively. Language workbenches bring the same flexibility into the world of programming languages. The need for high-level computer domain-specific languages is universal and can be identified both in academia and in industry. JetBrains MPS is an open-source language workbench that clients from many industries have chosen to implement their DSLs. We’ll see real-life examples from domains such as medicine, insurance, embedded software development, bioinformatics, enterprise systems and legislation. Why do companies invest in DSLs? What are the key benefits for them? How do the typical DSLs look like and how they are implemented? I want to answer these fundamental question during this practical session.",
+        "title": "JetBrains MPS - why modern language workbenches matter",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "325",
+    "firstName": "Vladimír",
+    "lastName": "Oraný",
+    "bio": "Vladimir is Test Fascilitator at agorapulse. He is interested in code quality, domain specific languages, cloud computing and writing magical code using AST transformations. He is a creator of Spreadsheet Builder, Gru & Dru frameworks.",
+    "shortBio": "Test Facilitator at agorapulse",
+    "photoUrl": "https://gcp-17.s3.amazonaws.com/speakers/325/vladimiro.jpg",
+    "twitter": "musketyr",
+    "publicationDate": "2017-10-11T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 336,
+        "description": "Business users love to interact with applications with spreadsheet files as much as the developers hates doing so. There are many ways how to generate Excel files in Java, starting with \"CSV will do\" approach or \"Generate HTML and save it as XLS\", but what your users really is to get rich content full of colours, different borders and fonts, filters and more. Apache POI is powerful library which allows you to create such documents but it is difficult to use. Spreadsheet Builder provides declarative DSL to create Excel files with grace. The DSL for writing spreadsheets is mirrored in query language to read spreadsheets which can be used to import or test generated files more easily. After short introduction, the framework will be presented on Java and Groovy live examples.",
+        "title": "Excel in Java",
+        "materialsUrl": null,
+        "type": "Lightning Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "303",
+    "firstName": "Volker",
+    "lastName": "Simonis",
+    "bio": "Volker Simonis works in the SAP JVM Technology group for more than 10 years. He is an OpenJDK contributor from the very beginning and helped the SAP JVM team engage in the OpenJDK project. He's the project lead of the OpenJDK PowerPC/AIX and s390x porting projects and a JDK 8/9 reviewer. He also represents SAP in the Executive Committee of the Java Community Process.",
+    "shortBio": "OpenJDK activist and HotSpot addict",
+    "photoUrl": "/speakers/volkers.jpg",
+    "twitter": "volker_simonis",
+    "publicationDate": "2017-08-19T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 309,
+        "description": "Abstract: Did you ever found hs_err_pid or replay_pid files in your Java application directory? Did your Java application ever crash and you didn't know why? This talk will unveil the contents stored by the HotSpot crash handler into the corresponding error files and how this information can be used to analyze and reproduce the crash. It will also introduce tools like the HotSpot Serviceability Agent which helps to introspect native core files and extract the relevant Java information from them which is otherwise not easily accessible by native debuggers. Detailed Plan: - run a Java application which crashes the VM - open the generated hs_err_pid file and explain its different sections: - native and Java stack trace - assembler instructions, register info and mapping to HotSpot data - threads, memory, events, exceptions, etc. - shared libraries, system information - different kind of crashes: - crashes in the runtime - crashes in native code - crashes in compiled (JITed) code - crashes in the GC - crashes during JIT compilation - use the Serviceability Agent to inspect Java/VM data structures in a core file: - what is the SA agent and how does it work - features of the SA agent - run a Java application which crashes during JIT compilation - inspect the generated replay_pid and inline_pid files - replay a crashing JIT compilation - problems when using -XX:ReplayCompiles feature - using the SA agent together with the -XX:ReplayCompiles feature Audience takeaway: The session will help you to better understand the root cause of VM crashes. This knowledge simplifies the task of fixing, working around or reporting the problem. Targeted audience: Experienced Java developers who want to analyze and understand the root cause of Java crashes. Everybody who is interested in HotSpot internals :)",
+        "title": "Analyzing HotSpot Crashes",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  },
+  {
+    "id": "324",
+    "firstName": "Zuzana",
+    "lastName": "Zatrochová",
+    "bio": "Zuzana started work at Y Soft as a distributed system researcher responsible for analyzing different technologies used in distributed systems. Today, in the role of technical product manager, she leads two development teams focused on the key components of Y Soft‘s core product. She specializes in software quality validation and is interested in machine learning. At Y Soft, she also leads a student team that works on Y Soft’s big data initiative. When Zuzana is not engaged in driving the development at Y Soft she likes sports, painting or playing computer games.",
+    "shortBio": "Technical Product Manager at Y Soft",
+    "photoUrl": "/speakers/zuzannaz.jpg",
+    "twitter": null,
+    "publicationDate": "2017-10-04T00:00:00Z",
+    "published": true,
+    "presentations": [
+      {
+        "id": 332,
+        "description": "<l>In the world of new design concepts, where software development is extremely fast, we build, we test, we release and we try to validate that our customers are satisfied with what we delivered. <\u002fl>\r\n<l>How do we know that we are targeting the right values? What is the proper value of our product? Is it the full set of functionalities we provide to our customers, or is it how they are performing that really matters?\r\nWe want to demonstrate that a qualitative approach is what really matters. How can we be proactive and create a product with healthy foundations, where behaviors are consistent across all functionalities we provide? \r\nWhat are the selling points of our product, and how can we validate that we are going in the right direction when improving it on an iterative basis? We would like to highlight our experience including all the trials and errors that it took us from the first idea about validation to where we are now.<\u002fl>\r\n<l>Also we will discuss what we consider the most typical obstacles to be aware of when working with developers, business people and customers.<\u002fl>",
+        "title": "Validation is more important than design",
+        "materialsUrl": null,
+        "type": "Talk",
+        "videoUrl": null
+      }
+    ]
+  }
+]
